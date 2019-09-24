@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Curso Bootstrap 4</title>
 </head>
 
@@ -112,11 +113,186 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center "></div>
+            <div class="col-12 text-center mt-3">
+                <h1 class=display-3>Lorem ipsum</h1>
+                <p>Phasellus tincidunt accumsan urna, id efficitur enim mattis ac.</p>
+            </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-5">
+            <div class='col-3'>
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column">
 
+                        <a class="nav-link" href="#item1">Lorem ipsum</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1">Nullan fringilla</a>
+                            <a class="nav-link ml-3" href="#item1-2">Donec vel</a>
+                        </nav>
+
+                        <a class="nav-link my-2" href="#item2">Aeneam rutrum</a>
+
+                        <a class="nav-link my-2" href="#item3">Ut eget</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1">Nunc eget</a>
+                            <a class="nav-link ml-3" href="#item3-2">Ut consector</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+
+            <div class='col-9'>
+                <div class="scrollspySite" data-spy="scroll" data-target="#navbarVertical" data-offset="0">
+                    <h4 id="item1">Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt accumsan urna, id efficitur enim mattis ac. Sed non rutrum justo, a vehicula libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer placerat arcu eu ultrices luctus. Mauris nec leo aliquet, porta elit ac, vestibulum libero.</p>
+
+                    <h5 id="item1-1">Quisque sem ante</h5>
+                    <p>Quisque sem ante, vestibulum ut tincidunt sit amet, finibus vitae magna. Mauris metus sem, accumsan et pellentesque vel, volutpat id ante. Maecenas venenatis erat a nulla ultrices sollicitudin. In iaculis orci eu cursus scelerisque. </p>
+
+                    <h5 id="item1-2">Vestibulum ante ipsum</h5>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus id libero arcu. Aliquam ac velit aliquet, dignissim ante eu, volutpat tellus. Aenean egestas ut nisi ac fermentum. Cras ultricies, lacus ac mollis interdum</p>
+
+                    <h4 id="item2">Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt accumsan urna, id efficitur enim mattis ac. Sed non rutrum justo, a vehicula libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer placerat arcu eu ultrices luctus. Mauris nec leo aliquet, porta elit ac, vestibulum libero.</p>
+
+                    <h4 id="item3">Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt accumsan urna, id efficitur enim mattis ac. Sed non rutrum justo, a vehicula libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer placerat arcu eu ultrices luctus. Mauris nec leo aliquet, porta elit ac, vestibulum libero.</p>
+
+                    <h5 id="item3-1">Quisque sem ante</h5>
+                    <p>Quisque sem ante, vestibulum ut tincidunt sit amet, finibus vitae magna. Mauris metus sem, accumsan et pellentesque vel, volutpat id ante. Maecenas venenatis erat a nulla ultrices sollicitudin. In iaculis orci eu cursus scelerisque. </p>
+
+                    <h5 id="item3-2">Vestibulum ante ipsum</h5>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus id libero arcu. Aliquam ac velit aliquet, dignissim ante eu, volutpat tellus. Aenean egestas ut nisi ac fermentum. Cras ultricies, lacus ac mollis interdum</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <img class="card-img-top" src="images/item-01.jpeg">
+                    <div class="card-body">
+                        <h4 class="card-title">Duis dignissim</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Vestibulum nec mollis</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adispicing elit.</p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orci varius natoque</li>
+                        <li class="list-group-item">Proin cursus blandit</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                    </ul>
+
+                    <div class="card-body">
+                        <a class="card-link" href="#">Donec</a>
+                        <a class="card-link" href="#">Curabitur risus</a>
+                    </div>
+
+                    <div class="card-footer text-muted">
+                        Marcenec aut
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    
+                    <img class="card-img-top" src="images/item-02.jpeg">
+                    <div class="card-body">
+                        <h4 class="card-title">Duis dignissim</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Vestibulum nec mollis</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adispicing elit.</p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orci varius natoque</li>
+                        <li class="list-group-item">Proin cursus blandit</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                    </ul>
+
+                    <div class="card-body">
+                        <a class="card-link" href="#">Donec</a>
+                        <a class="card-link" href="#">Curabitur risus</a>
+                    </div>
+
+                    <div class="card-footer text-muted">
+                        Marcenec aut
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    
+                    <img class="card-img-top" src="images/item-03.jpeg">
+                    <div class="card-body">
+                        <h4 class="card-title">Duis dignissim</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Vestibulum nec mollis</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adispicing elit.</p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Orci varius natoque</li>
+                        <li class="list-group-item">Proin cursus blandit</li>
+                        <li class="list-group-item">Cras sed orci</li>
+                    </ul>
+
+                    <div class="card-body">
+                        <a class="card-link" href="#" data-toggle="modal" data-target="#siteModal">Donec</a>
+                        <a class="card-link" href="#">Curabitur risus</a>
+                    </div>
+
+                    <div class="card-footer text-muted">
+                        Marcenec aut
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <h4 class="modal-title">Lorem ipsum dolor</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Vestibulum ante ipsum</h5>
+                                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus id libero arcu. Aliquam ac velit aliquet, dignissim ante eu, volutpat tellus. Aenean egestas ut nisi ac fermentum. Cras ultricies, lacus ac mollis interdum, orci lorem bibendum urna, et rhoncus odio erat eu sapien. Vestibulum viverra ultricies magna, in elementum orci iaculis quis. Duis massa felis, elementum vel molestie in, varius eget sem. Ut ac ligula ex. Nunc mi lorem, efficitur vitae nulla eget, blandit dapibus diam. Proin sit amet consectetur est. </p>
+                            </div>
+
+                            <div class="col-6">
+                                <h5>Praesent sed sollicitudin</h5>
+                                <p>Praesent sed sollicitudin justo. Quisque vel enim quis felis aliquam fermentum. Vivamus pretium mattis neque, id semper purus bibendum non. In eleifend sapien vel interdum laoreet. Nullam tempus et ex sed tempus. In dictum eros non ex sollicitudin auctor. Etiam mollis nunc ut dictum tincidunt. Fusce quis lacus maximus, lacinia erat a, lobortis quam. Nam sit amet tellus vestibulum, iaculis velit non, rhoncus risus. Praesent eleifend scelerisque mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus suscipit aliquam nisi sit amet dictum. Cras at hendrerit turpis, a egestas velit. Aenean sed odio odio. Phasellus imperdiet lectus eu finibus placerat. Aliquam mi metus, molestie non diam sit amet, aliquam sagittis velit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                    <p>Phasellus vitae est dolor. Nulla congue justo ac vulputate mattis. In ut mauris semper magna porttitor luctus. Quisque aliquet consequat mattis. Nulla facilisi. Mauris et ex quis tellus fermentum volutpat vitae sed diam. Sed egestas nulla eu ipsum hendrerit venenatis nec eu turpis. Pellentesque euismod tortor sit amet rutrum cursus. Ut efficitur, leo nec vulputate iaculis, magna lacus fringilla mi, at vulputate lorem tortor eget odio. Nam dignissim nec tortor quis gravida. Donec quis odio pulvinar dolor tempus viverra. Fusce laoreet feugiat sollicitudin. Praesent tellus leo, aliquam semper nulla ac, imperdiet posuere felis. </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        Donec
+                    </button>
+                </div>
+
+            </div>
         </div>
     </div>
 
